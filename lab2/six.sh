@@ -14,7 +14,7 @@ fun(){
         else
            if [ "${d##*.}" = "txt" ]
                 then
-                    grep -n "$d"
+                    echo $d `grep -c "$d"`
             fi
     fi
 }
