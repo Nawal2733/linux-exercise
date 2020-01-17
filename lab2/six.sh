@@ -14,7 +14,7 @@ fun(){
         else
            if [ "${d##*.}" = "txt" ]
                 then
-                    wc -m "$d"
+                    grep -n "$d"
             fi
     fi
 }
