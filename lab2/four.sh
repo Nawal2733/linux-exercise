@@ -6,13 +6,13 @@ read n
 if (( $(echo "$n > 1 " |bc -l ) ))
     then
         echo "======== Using For Loop ========= "
-        for (( i=0; i<=$n; i++))
+        for (( i=1; i<=$n; i++))
         do
             echo "$i"
         done
 
         echo "======== Using while Loop ========= "
-        count=0
+        count=1
         while [ $count -le $n ]
         do
             echo "$count"
@@ -20,7 +20,7 @@ if (( $(echo "$n > 1 " |bc -l ) ))
         done
 
         echo "======== Using until Loop ========= "
-        count=0
+        count=1
         until [ ! $count -le $n ]
         do
             echo "$count"
