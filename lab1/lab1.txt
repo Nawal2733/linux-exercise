@@ -1,0 +1,38 @@
+1. pwd | ls -al
+
+2. mkdir intern-2020 rapidops-2020
+
+3. 	cd intern-2020
+	touch dev.txt helloworld.txt
+
+4. nano dev.txt
+   echo "Hello World" > helloworld.txt
+
+5. cp dev.txt helloworld.txt /home/ad.rapidops.com/nawalkishor.yadav/Documents/rapidops-2020/
+
+6. cd ../rapidops-2020
+   mv dev.txt d.txt
+   mv helloworld.txt h.txt
+   mmv
+
+7. touch dev.txt helloworld.txt
+   chmod 400 dev.txt | chmod 760 helloworld.txt
+
+8. tar -cvf rapidops.tar *.txt
+   mv rapidops.tar /home/ad.rapidops.com/nawalkishor.yadav/Documents/intern-2020/
+
+
+9. cp .././intern-2020/rapidops.tar . &&  rm .././intern-2020/rapidops.tar
+
+10. find dev.txt
+
+11. top
+
+12. df -h
+
+13. ps -aux
+    top -p <process_id>
+
+14. wget <file_name>
+
+15. netstat -a
